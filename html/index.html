@@ -19,7 +19,7 @@
             <a href="#">photoStore</a>
         </div>
         <form id="search-bar" action="" method="get">
-            <input id="search" type="search" name="text" placeholder="Выбрать товар" >
+            <input id="search" type="text" name="text" placeholder="Выбрать товар" >
             <input id="submit" type="submit" name="submit" value="Поиск">
         </form>
         <div id="nav">
@@ -31,10 +31,25 @@
 
     <div id="content">
         <div id="welcome-screen">
-            <p id="welcome-text">Всё ради хайпа.</p>
-        </div>
-
+            <p id="welcome-text">Всё ради момента.</p>
+        </div>  
         <div id="main-screen">
+            <div id="categories-list">
+                <a href="#">
+                    <img src="/img/icons/camera.png" alt="camera">
+                </a>
+                <a href="#">
+                    <img src="/img/icons/lens.png" alt="lens">
+                </a>
+                <a href="#">
+                    <img src="/img/icons/camera-flash.png" alt="flash">
+                </a>
+                <a href="#">
+                    <img src="/img/icons/binocular.png" alt="binocular">
+                </a>
+            </div>
+            <div id="filters"></div>
+            <div id="product-table"></div>
         </div>
     </div>
 </body>
