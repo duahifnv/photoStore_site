@@ -6,15 +6,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Mooli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/stylesheet.css" />
 
     <title>photoStore</title>
 </head>
 
 <body>
-    <div id="header">
+    <div id="page__header">
         <div id="logo">
             <a href="#">photoStore</a>
         </div>
@@ -29,27 +28,85 @@
         </div>
     </div>
 
-    <div id="content">
+    <div id="page__content">
         <div id="welcome-screen">
             <p id="welcome-text">Всё ради момента.</p>
         </div>  
         <div id="main-screen">
-            <div id="categories-list">
+            <div id="categories">
+                <p>Популярные категории</p>
+                <div id="categories-list">
+                    <a href="#">
+                        <img src="/img/icons/camera.png" alt="camera">
+                        <span>Фотоаппараты</span>
+                    </a>
+                    <a href="#">
+                        <img src="/img/icons/lens.png" alt="lens">
+                        <span>Объективы</span>
+                    </a>
+                    <a href="#">
+                        <img src="/img/icons/camera-flash.png" alt="flash">
+                        <span>Вспышки</span>
+                    </a>
+                    <a href="#">
+                        <img src="/img/icons/binocular.png" alt="binocular">
+                        <span>Оптические приборы</span>
+                    </a>
+                </div>
+            </div>
+            <div id="filter-table">
+                <div id="filters"></div>
+                <div id="table"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page__footer">
+        <div id="footer_container">
+            <div id="icons">
+                <span href="#">photoStore</span>
+                <div id="social-networks">
+                    <a href="#">
+                        <img src="/img/social_icons/vk-48.png" alt="vk">
+                    </a>
+                    <a href="#">
+                        <img src="/img/social_icons/github.png" alt="github">
+                    </a>
+                    <a href="#">
+                        <img src="/img/social_icons/discord.png" alt="discord">
+                    </a>
+                    <a href="#"><b>Gmail</b></a>
+                </div>
+            </div>
+            <div id="information">
+                <h1>Информация</h1>
+                <a href="#">О компании</a>
+                <a href="#">Вакансии компании</a>
+                <a href="#">Соглашение об обработке персональных данных</a>
+                <a href="#">FAQ</a>
+                <a href="#">Контакты</a>
+                <a href="#">Обратная связь</a>
+            </div>
+            <div id="payments">
                 <a href="#">
-                    <img src="/img/icons/camera.png" alt="camera">
+                    <img src="/img/payment_icons/visa.png" alt="visa">
                 </a>
                 <a href="#">
-                    <img src="/img/icons/lens.png" alt="lens">
+                    <img src="/img/payment_icons/Mir.png" alt="mir">
                 </a>
                 <a href="#">
-                    <img src="/img/icons/camera-flash.png" alt="flash">
-                </a>
-                <a href="#">
-                    <img src="/img/icons/binocular.png" alt="binocular">
+                    <img src="/img/payment_icons/QIWI.png" alt="qiwi">
                 </a>
             </div>
-            <div id="filters"></div>
-            <div id="product-table"></div>
+            <div id="copyright">
+                <img src="/img/copyright.png" alt="copyright-logo">
+                <p>Все материалы сайта photoStore.ru,
+                     любая текстовая, графическая или видео информация,
+                      а также структура сайта и оформление страниц,
+                       защищены российским и международным законодательством
+                        в соответствии с соглашением об охране авторских прав,
+                         смежных прав и интеллектуальной собственности.</p>
+            </div>
         </div>
     </div>
 </body>
