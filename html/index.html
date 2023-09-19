@@ -14,8 +14,28 @@
 
 <body>
     <div id="page__header">
-        <div id="logo">
-            <a href="#">photoStore</a>
+        <div id="logo__inner">
+            <div id="dropdown">
+                <button>
+                    <img src="/img/dropdown_button.png" alt="кнопка">
+                </button>
+                <ul id="nav-content">
+                    <li><a href="#">Главная страница</a></li>
+                    <li><a href="#">Каталог</a>
+                        <ul>
+                            <li><a href="#">Фотоаппараты</a></li>
+                            <li><a href="#">Объективы</a></li>
+                            <li><a href="#">Вспышки</a></li>
+                            <li><a href="#">Оптические приборы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Об авторе</a></li>
+                    <li><a href="#">О фирме</a></li>
+                </ul>
+            </div>
+            <div id="logo">
+                <img src="/img/photostore_logo.png">
+            </div>
         </div>
         <form id="search-bar" action="" method="get">
             <input id="search" type="text" name="text" placeholder="Выбрать товар" >
@@ -32,31 +52,30 @@
         <div id="welcome-screen">
             <p id="welcome-text">Всё ради момента.</p>
         </div>  
-        <div id="main-screen">
-            <div id="categories">
-                <p>Популярные категории</p>
-                <div id="categories-list">
-                    <a href="#">
-                        <img src="/img/icons/camera.png" alt="camera">
-                        <span>Фотоаппараты</span>
-                    </a>
-                    <a href="#">
-                        <img src="/img/icons/lens.png" alt="lens">
-                        <span>Объективы</span>
-                    </a>
-                    <a href="#">
-                        <img src="/img/icons/camera-flash.png" alt="flash">
-                        <span>Вспышки</span>
-                    </a>
-                    <a href="#">
-                        <img src="/img/icons/binocular.png" alt="binocular">
-                        <span>Оптические приборы</span>
-                    </a>
-                </div>
+        <div id="categories">
+            <p>Популярные категории</p>
+            <div id="categories-list">
+                <a href="#">
+                    <img src="/img/category_icons/camera.png" alt="camera">
+                    <span>Фотоаппараты</span>
+                </a>
+                <a href="#">
+                    <img src="/img/category_icons/lens.png" alt="lens">
+                    <span>Объективы</span>
+                </a>
+                <a href="#">
+                    <img src="/img/category_icons/camera-flash.png" alt="flash">
+                    <span>Вспышки</span>
+                </a>
+                <a href="#">
+                    <img src="/img/category_icons/binocular.png" alt="binocular">
+                    <span>Оптические приборы</span>
+                </a>
             </div>
-            <div id="filter-table">
-                <div id="filters"></div>
-                <div id="table"></div>
+        </div>
+        <div id="main-content">
+            <div id="product-table">
+                a
             </div>
         </div>
     </div>
