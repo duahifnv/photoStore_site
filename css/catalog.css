@@ -157,7 +157,7 @@ input{
     height: fit-content;
 }
 #main-content{
-    background-color: #9c619670;
+    background-color: white;
     width: 100%;
     height: fit-content;
 }
@@ -167,19 +167,36 @@ input{
     gap: 20px 55px;
     flex-wrap: wrap;
     padding: 4% 5%;
-    background-color: white;
-    max-width: 100%;
-    max-height: 85%;
+    width: 90%;
+    height: fit-content;
 }
 #item-wrapper{
-    width: 17%;
-    min-height: fit-content;
-    max-height: 60vh;
+    display: flex;
+    width: 40%;
+    min-height: 250px;
+    max-height: 300px;
+}
+#item-wrapper a{
+    display: table;
+    width: 40%;
 }
 #item-wrapper img{
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    padding-top: 10%;
     width: 80%;
+}
+#item-info{
+    padding: 2%;
+    width: 60%;
+}
+#item-name{
+    font-size: 22px;
+    font-weight: 600;
+}
+#current-price{
+    font-size: 22px;
+    font-weight: 600;
 }
 /*FOOTER*/
 #page__footer{
