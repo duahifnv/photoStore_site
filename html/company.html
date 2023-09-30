@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/company.css" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <title>photoStore</title>
+</head>
+
+<body>
+    <div id="page__header">
+        <div id="logo__inner">
+            <div id="dropdown">
+                <button>
+                    <img src="/img/dropdown_button.png" alt="кнопка">
+                </button>
+                <div id="nav-content">
+                    <ul id="nav-list">
+                        <li><a href="/html/index.html">Главная страница</a></li>
+                        <li><a href="/html/catalog.html">Каталог</a>
+                            <ul>
+                                <li><a href="#">Фотоаппараты</a></li>
+                                <li><a href="#">Объективы</a></li>
+                                <li><a href="#">Вспышки</a></li>
+                                <li><a href="#">Оптические приборы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/html/about me.html">Об авторе</a></li>
+                        <li><a href="/html/company.html">О фирме</a></li>
+                    </ul>
+                    <div id="nav-blackout"></div>
+                </div>
+                
+            </div>
+            <div id="logo">
+                <img src="/img/photostore_logo.png">
+            </div>
+        </div>
+        <form id="search-bar" action="" method="get">
+            <input id="search" type="text" name="text" placeholder="Выбрать товар" >
+            <input id="submit" type="submit" name="submit" value="Поиск">
+        </form>
+        <div id="nav">
+            <a href="#" id="cart">Корзина</a>
+            <a href="#" id="login">Войти</a>
+            <a href="#" id="register">Регистрация</a>
+        </div>
+    </div>
+
+    <div id="page__content">
+        <div id="welcome-screen">
+            <p id="welcome-text">О фирме</p>
+        </div>
+        <div id="information-wrap">
+            <div id="logo-wrap">
+                <a href="/html/index.html">
+                    <img src="/img/photostore_logo.png" alt="photoStore">
+                </a>
+            </div>
+            <div id="text-wrap">
+                <div id="info-wrap">
+                    <div id="info-text">
+                        <h1>О нашей компании</h1>
+                        <p>Добро пожаловать в <b>photoStore</b>,
+                            лидера на рынке продаж <b>фотоаппаратов</b> в России!
+                        </p>
+                        <p><b>photoStore</b> - команда профессионалов, которые с гордостью 
+                            предлагают широкий ассортимент фотоаппаратов от 
+                            ведущих мировых производителей. <br>Наша цель - 
+                            помочь вам запечатлеть самые ценные моменты 
+                            вашей жизни, предоставляя вам качественное 
+                            оборудование, которое отвечает самым 
+                            высоким стандартам.
+                        </p>
+                    </div>
+                    <div id="contact-list">
+                            <p>Команда <b>photoStore</b>
+                                ждет ваших вопросов, предложений и пожеланий:
+                            </p>
+                            <ul>
+                                <li>В нашей группе Вконтакте: <a href="/html/index.html">https://vk.com/photostore</a></li>
+                                <li>По телефону: <b>+79040123321</b></li>
+                                <li>По электронной почте: <b>order@photostore.ru</b></li>
+                                <li>По адресу: г.Ростов-на-Дону, улица Текучёва, д.141А</li>
+                            </ul>
+                    </div>
+                        
+                </div>
+            </div>  
+            <div id="location-wrap">
+                <h1>Мы на карте:</h1>
+                <div id="active-map">
+                    <a id="map-city" href="https://yandex.ru/maps/39/rostov-na-donu/?utm_medium=mapframe&utm_source=maps">Ростов‑на‑Дону</a>
+                    <a id="map-address" href="https://yandex.ru/maps/39/rostov-na-donu/?azimuth=3.6475277415024374&ll=39.708028%2C47.235448&mode=routes&rtext=47.236422%2C39.713777~47.235559%2C39.708183&rtt=auto&ruri=~&utm_medium=mapframe&utm_source=maps&z=18.01">Яндекс Карты</a>
+                    <iframe src="https://yandex.ru/map-widget/v1/?azimuth=3.6475277415024374&ll=39.708028%2C47.235448&mode=routes&rtext=47.236422%2C39.713777~47.235559%2C39.708183&rtt=auto&ruri=~&z=18.01" frameborder="1" allowfullscreen="true"></iframe>
+                </div>
+            </div>  
+            <div id="feedback-wrap">
+                <form id="feedback">
+                    <h1>Обратная связь</h1>
+                    <div class="input-wrap">
+                        <input type="text" name="username" placeholder="Ваше имя">
+                    </div>
+                    <div class="input-wrap">
+                        <input type="text" name="email" placeholder="Ваша почта">
+                    </div>
+                    <div class="input-wrap">
+                        <input type="text" name="order-id" placeholder="Номер заказа">
+                    </div>
+                    <div class="input-wrap" id="message-box">
+                        <input type="text" name="username" placeholder="Ваше сообщение">
+                    </div>
+                    <div class="input-wrap">
+                        <input id="submit-btn" type="submit" name="submit" value="Отправить">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="page__footer">
+        <div id="footer_container">
+            <div id="icons">
+                <span href="#">photoStore</span>
+                <div id="social-networks">
+                    <a href="#">
+                        <img src="/img/social_icons/vk-48.png" alt="vk">
+                    </a>
+                    <a href="#">
+                        <img src="/img/social_icons/github.png" alt="github">
+                    </a>
+                    <a href="#">
+                        <img src="/img/social_icons/discord.png" alt="discord">
+                    </a>
+                    <a href="#"><b>Gmail</b></a>
+                </div>
+            </div>
+            <div id="information">
+                <h1>Информация</h1>
+                <a href="#">О компании</a>
+                <a href="#">Вакансии компании</a>
+                <a href="#">Соглашение об обработке персональных данных</a>
+                <a href="#">FAQ</a>
+                <a href="#">Контакты</a>
+                <a href="#">Обратная связь</a>
+            </div>
+            <div id="payments">
+                <a href="#">
+                    <img src="/img/payment_icons/visa.png" alt="visa">
+                </a>
+                <a href="#">
+                    <img src="/img/payment_icons/Mir.png" alt="mir">
+                </a>
+                <a href="#">
+                    <img src="/img/payment_icons/QIWI.png" alt="qiwi">
+                </a>
+            </div>
+            <div id="copyright">
+                <img src="/img/copyright.png" alt="copyright-logo">
+                <p>Все материалы сайта photoStore.ru,
+                     любая текстовая, графическая или видео информация,
+                      а также структура сайта и оформление страниц,
+                       защищены российским и международным законодательством
+                        в соответствии с соглашением об охране авторских прав,
+                         смежных прав и интеллектуальной собственности.</p>
+            </div>
+        </div>
+    </div>
+</body>
