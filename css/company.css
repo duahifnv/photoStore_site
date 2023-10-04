@@ -1,11 +1,9 @@
 body {
     background-image: url('../img/backgrounds/pastel_blur4.jpg');
 }
-
 #page__content {
     width: 100%;
 }
-
 #information-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +66,6 @@ body {
     width: 90%;
     height: 100%;
 }
-
 #feedback{
     height: 80%;
     padding: 10px;
